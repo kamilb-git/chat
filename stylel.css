@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    background: linear-gradient(to top, #111111, #333333);
+}
+
+.main {
+    background-color: #222222;
+    display: inline-block;
+    text-align: center;
+    width: 85vw;
+    height: 420px;
+    margin-top: 10vh;
+    padding-bottom: 15px;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 45px 1px rgba(255, 255, 255, 0.15);
+}
+
+.sign {
+    padding-top: 40px;
+    text-align: center;
+    color: #45e49a;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.un, .pass {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: #c9c9c9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Didact Gothic', sans-serif;
+    display: inline-block;
+}
+
+form.form1 {
+    padding-top: 40px;
+}
+
+.un:focus, .pass:focus {
+    border: 2px solid rgba(255, 255, 255, 0.5) ;
+    
+}
+
+.submit {
+    cursor: pointer;
+    border-radius: 12px;
+    color: rgb(38, 50, 56);
+    background: linear-gradient(to right, #39bb7e, #45e49a);
+    border: 0;
+    padding: 10px 50px 10px 50px;
+    font-family: 'Didact Gothic', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    outline: none;
+}
+
+.submit:hover {
+    background: linear-gradient(to right, #399c6c, #41cf8d);
+}
+
+.err{
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    .main {
+        width: 700px;
+    }
+  }
+
+
+
+
+
+
+    

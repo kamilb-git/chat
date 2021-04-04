@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+
+body{
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    /* background-color: #222222; */
+    font-family: 'Didact Gothic', sans-serif;
+    background: linear-gradient(to top, #111111, #333333);
+}
+
+#messages{
+    height: 90vh;
+    overflow-x: hidden;
+    padding: 10px 15px;
+}
+
+#messages::-webkit-scrollbar-track
+{
+  
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+#messages::-webkit-scrollbar
+{
+  width: 4px;
+  background-color: transparent;
+}
+
+#messages::-webkit-scrollbar-thumb
+{
+  border-radius: 20px;
+  background-color: #45e49a;
+}
+
+form{
+    display: flex;   
+    margin: 0px 5px 0px 5px;
+    /* background: linear-gradient(to top, #1a1a1a, #111111); */
+    background: transparent;
+    
+}
+
+input{
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    z-index: 420;
+    border: 1px solid #bebebe;
+    border-radius: 7px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+
+#message{
+    outline: none;
+    width: 86vw;
+    background: #f3f1f1;
+}
+
+
+.submit{
+    width: 10vw;
+    outline: none;
+    background: linear-gradient(to right, #45e49a, #48f7a5);
+    cursor: pointer;
+    border: none;
+}
+
+
+.submit:hover {
+    background: linear-gradient(to right, #3ac584, #45e49a);
+}
+
+.msg{
+    background-color: #45e49a;
+    padding: 8px 14px 12px 14px;
+    border-radius: 12px;
+    margin-top: -12px;
+    margin-right: 15vw;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+
+.name{
+    margin-left: 2px;
+    color: #e4e4e4;
+    font-size: 16px;
+}
+
+.name span{
+    margin-left: 6px;
+    font-size: 12px;
+    color: #acacac;
+}
+
+.top{
+    position: relative;
+}
+
+.logout{
+    font-size: 16px;
+    right: 15px;
+    top: 1.5vh;
+    padding: 10px 20px;
+    z-index: 420;
+    background: linear-gradient(to right, #45e49a, #48f7a5);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-family: 'Didact Gothic', sans-serif; 
+    position: absolute;
+}
+
+.logout:hover {
+    background: linear-gradient(to right, #3ac584, #45e49a);
+}
+
+@media screen and (max-width: 600px) {
+    /* body{
+       transform: scale(0.98);  
+    }
+     */
+    #messages{
+        height: 77vh;
+    }
+
+    #message{
+        width: 70vw;
+    }
+
+    .submit{
+        width: 17vw;
+    }
+
+  }
+
+    
