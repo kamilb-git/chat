@@ -33,6 +33,8 @@ function load(){
     })
 }
 
+
+// wyswietlanie wiadomosci
 function renderMessage(item){
     
     let time = new Date(item.data);
@@ -53,6 +55,8 @@ function renderMessage(item){
     return `<p class='name'>${item.imie == imie ? '<b>Ty</b>':item.imie}<span>${time}</span></p><div class="msg">${item.wiadomosc}</div>`;
     
 }
+
+
 
 
 
